@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  padding: 5px;
+  margin: 0;
+}
+
+.gear-grid {
+  border: solid 1px #000;
+  font-size: 0;
+  padding: 10px 10px;
+  margin-right: 20px;
+}
+
+.gear-item {
+  display: inline-block;
+  width: 350px;
+  height: 44%;
+  border: dashed 2px #ddd;
+  margin: 1% 2%;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.gear-item input[type="file"] {
+  width: 300px;
+
+}
+.gear-item:hover input[type="file"] {
+  opacity: 1;
+}
+.gear-item img {
+  max-width: 100px;
+  max-height: 200px;
+}
+
+@media only screen and (max-device-width: 900px) {
+.gear-item input[type="file"] {
+  width: 300px;
+  height: 100px;
+  font-size: 25px;
+
+}
+}

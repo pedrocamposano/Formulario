@@ -1,0 +1,144 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #edf7ed;
+}
+ 
+form  {
+  
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+ 
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    color: #15a537;
+}
+ 
+input {
+    
+    padding: 10px;
+    color: #595b5e;
+    border-bottom: 1px solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 880px;
+    margin-right: 10px;
+    
+}
+ 
+ 
+.submit input {
+    text-align: center;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: white;
+}
+.submit{
+    text-align: center;
+}
+
+
+.bot{
+    text-align: center;
+}
+ 
+
+ 
+form label {
+ 
+    font-weight: bold;
+}
+.img{
+    margin-top: 2px;
+   text-align: center;
+}
+.caixa{
+    width: 945px;
+    border-color:#595b5e;
+     border: 1px solid;
+     margin: 0 auto;
+     border-radius: 5px;
+     background-color: #f4f4f4;
+}
+.descom{
+    text-align: center;
+}
+.formulario{
+     margin-top: 50px;
+}
+.descom p{
+    font-size: 20px;
+}
+.bimg{
+  background-color: black;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: white;  
+}
+
+@media only screen and (max-device-width: 900px) {
+img{
+    height: 310px;
+}
+ .img{
+    width: 100%;
+    margin-left: 0px;
+ }
+ .caixa{
+  width: 100%;
+ }
+ input{
+    height: 50px;
+    color: #2f38b5;
+ }
+ form  {
+    font-size: 10px; 
+
+}
+label{
+    color: #2f38b5;
+}
+.submit input {
+    background-color: black;
+    height: 80px;
+    width: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gear-item:hover input[type="file"] {
+  opacity: 1;
+}
+.gear-item img {
+  max-width: 200px;
+  max-height: 170px;
+}
+ 
+}
